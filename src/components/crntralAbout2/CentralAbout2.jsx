@@ -6,7 +6,7 @@ const CentralAbout2 = () => {
 
 
   const Data=[{
-    png:<i class="bi bi-hand-thumbs-up"></i>,
+    png:<i className="bi bi-hand-thumbs-up"></i>,
     para:"Happy Clients",
     info:"829 +"
   },
@@ -16,25 +16,26 @@ const CentralAbout2 = () => {
     info:"51 +"
   },
   {
-    png:<i class="bi bi-car-front-fill"></i>,
+    png:<i className="bi bi-car-front-fill"></i>,
     para:"Car Center",
     info:"127+"
   },
   {
-    png:<i class="bi bi-alarm"></i>,
+    png:<i className="bi bi-alarm"></i>,
     para:"Total kilometers",
     info:"589 +"
   }]
   return (
     <>
     
-    <section class="section-red img-fluid ">
-    <div class="container-red font-weight-bold ">
-      <div class="row">
+    <section className="section-red img-fluid ">
+    <div className="container-red font-weight-bold ">
+      <div className="row">
 
         {
           Data.map((val,index)=>(
             <CentralCard
+            key={index}
             png={val.png}
             para={val.para}
             info={val.info}

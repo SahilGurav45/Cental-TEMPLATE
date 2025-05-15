@@ -13,7 +13,7 @@ const CentalAbout = () => {
                         <div className="col-lg-3 section1">
                             <div className="card">
                                 <div className="card-header">
-                                <i class="bi bi-balloon-fill"></i>
+                                <i className="bi bi-balloon-fill"></i>
                                 </div>
                                 <div className="card-body">
                                     <h3>our vision</h3>
@@ -26,7 +26,7 @@ const CentalAbout = () => {
                         <div className="col-lg-3 section1">
                             <div className="card">
                                 <div className="card-header">
-                                <i class="bi bi-browser-edge"></i>
+                                <i className="bi bi-browser-edge"></i>
                                 </div>
                                 <div className="card-body">
                                     <h3>our vision</h3>
@@ -40,7 +40,7 @@ const CentalAbout = () => {
                     <p className='font text-center fs-4 fw-lighter'>Lorem ipsum dolor sit, amet . Eveniet nemo illum, dolorum perspiciatis consectetur alias praesentium iure recusandae? Tenetur, est nemo itaque sunt quasi officiis ex deserunt excepturi neque tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perferendis nam cupiditate tempora qui ratione vel enim ipsum laborum ex, consectetur consequatur numquam dignissimos consequuntur aut amet ipsa sequi ea!</p>
                 </div>
             {/* .............................................. */}
-            <div class="col-lg-6">
+            <div className="col-lg-6">
                        <div className="container">
                        <div className="about-img ">
                             <div className="img-1">

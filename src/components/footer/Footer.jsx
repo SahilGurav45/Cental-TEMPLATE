@@ -13,8 +13,8 @@ const Footer = () => {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio facilis a nostrum nulla recusandae magnam quis voluptate, neque natus hic!
                             </p>
                            
-                            <div class="input-container">
-                                <input placeholder="email" type="text" class="input" />
+                            <div className="input-container">
+                                <input placeholder="email" type="text" className="input" />
                                 <span>@gmail.com</span>
                             </div>
                         </div>
@@ -51,28 +51,28 @@ const Footer = () => {
                         <div className="col-lg-3">
                             <h1 className='text-info text-left mt-3 fs-4'>Contact Info</h1>
                             <div className='text-light '>
-                                <h6 className='text-secondary mt-3 text-left'> <span> <i class="bi bi-geo"></i></span> 123 Street,New York,USA</h6>
-                                <h6 className='text-secondary mt-3 text-left'><span> <i class="bi bi-envelope"></i></span> Cental@gmail.com</h6>
-                                <h6 className='text-secondary mt-3 text-left'><span> <i class="bi bi-telephone"></i></span> +098765432</h6>
-                                <h6 className='text-secondary mt-3 text-left'><span> <i class="bi bi-clipboard-pulse"></i></span> +909876543</h6>
+                                <h6 className='text-secondary mt-3 text-left'> <span> <i className="bi bi-geo"></i></span> 123 Street,New York,USA</h6>
+                                <h6 className='text-secondary mt-3 text-left'><span> <i className="bi bi-envelope"></i></span> Cental@gmail.com</h6>
+                                <h6 className='text-secondary mt-3 text-left'><span> <i className="bi bi-telephone"></i></span> +098765432</h6>
+                                <h6 className='text-secondary mt-3 text-left'><span> <i className="bi bi-clipboard-pulse"></i></span> +909876543</h6>
                             </div>
                             <div className='d-flex gap-3 text-info mt-5'>
-                                <h1><i class="bi bi-facebook"></i></h1>
-                                <h1><i class="bi bi-twitter"></i></h1>
-                                <h1><i class="bi bi-instagram"></i></h1>
-                                <h1><i class="bi bi-linkedin"></i></h1>
+                                <h1><i className="bi bi-facebook"></i></h1>
+                                <h1><i className="bi bi-twitter"></i></h1>
+                                <h1><i className="bi bi-instagram"></i></h1>
+                                <h1><i className="bi bi-linkedin"></i></h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr className='text-light fw-bold' />
-                <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class=" text-secondary"><a href="#" class="border-bottom text-white"><i class="bi bi-c-circle"></i>  Your Site Name</a>, All right reserved.</span>
+                <div className="container-fluid copyright py-4">
+            <div className="container">
+                <div className="row g-4 align-items-center">
+                    <div className="col-md-6 text-center text-md-start mb-md-0">
+                        <span className=" text-secondary"><a href="#" className="border-bottom text-white"><i className="bi bi-c-circle"></i>  Your Site Name</a>, All right reserved.</span>
                     </div>
-                    <div class="col-md-6 text-center  text-secondary">Designed By <a class="border-bottom text-white" href="https://cental.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                    <div className="col-md-6 text-center  text-secondary">Designed By <a className="border-bottom text-white" href="https://cental.com">HTML Codex</a> Distributed By <a className="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
                     </div>
                 </div>
             </div>

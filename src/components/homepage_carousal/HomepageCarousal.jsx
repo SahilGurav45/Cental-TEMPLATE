@@ -47,7 +47,7 @@ const Carousel = () => {
         </div>
       </div>
       <button className="custom-carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <i class="bi bi-skip-start-circle-fill"></i>
+      <i className="bi bi-skip-start-circle-fill"></i>
         <span className="visually-hidden">Previous</span>
       </button>
       <button className="custom-carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
